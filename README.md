@@ -1,6 +1,4 @@
-# ZKsync Hardhat project template
-
-This project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
+# Music Streaming Decentralized Application Project
 
 ## Project Layout
 
@@ -22,7 +20,7 @@ Note: Both `npm run deploy` and `npm run interact` are set in the `package.json`
 
 To keep private keys safe, this project pulls in environment variables from `.env` files. Primarily, it fetches the wallet's private key.
 
-Rename `.env.example` to `.env` and fill in your private key:
+Fill `.env` in your private key:
 
 ```
 WALLET_PRIVATE_KEY=your_private_key_here...
@@ -40,11 +38,9 @@ Important: ZKsync In-memory Node currently supports only the L2 node. If contrac
 
 ## Useful Links
 
-- [Docs](https://docs.zksync.io/build)
-- [Official Site](https://zksync.io/)
-- [GitHub](https://github.com/matter-labs)
-- [Twitter](https://twitter.com/zksync)
-- [Discord](https://join.zksync.dev/)
+To clone the repository, run:
+
+`git clone https://github.com/0xkriswebchain/music-streaming-dapp`
 
 ## License
 
